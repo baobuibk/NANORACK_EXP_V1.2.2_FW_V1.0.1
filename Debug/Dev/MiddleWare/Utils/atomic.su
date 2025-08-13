@@ -1,0 +1,4 @@
+../Dev/MiddleWare/Utils/atomic.c:18:10:atomic_inc	32	static,ignoring_inline_asm
+../Dev/MiddleWare/Utils/atomic.c:27:10:atomic_dec	32	static,ignoring_inline_asm
+../Dev/MiddleWare/Utils/atomic.c:36:10:atomic_set_and_get_old	32	static,ignoring_inline_asm
+../Dev/MiddleWare/Utils/atomic.c:45:10:atomic_compare_and_swap	40	static,ignoring_inline_asm

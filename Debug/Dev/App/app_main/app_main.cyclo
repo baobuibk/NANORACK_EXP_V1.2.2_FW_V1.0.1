@@ -1,0 +1,3 @@
+../Dev/App/app_main/app_main.c:25:6:app_init	1
+../Dev/App/app_main/app_main.c:38:6:app_start	1
+../Dev/App/app_main/app_main.c:51:6:app_run	1

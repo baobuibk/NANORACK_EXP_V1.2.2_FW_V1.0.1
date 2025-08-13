@@ -1,0 +1,17 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_adc.h:3822:22:LL_ADC_Enable	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_adc.h:3873:22:LL_ADC_REG_StartConversionSWStart	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:497:22:LL_DMA_EnableStream	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:517:22:LL_DMA_DisableStream	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:537:26:LL_DMA_IsEnabledStream	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:646:22:LL_DMA_SetMode	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:693:22:LL_DMA_SetPeriphIncMode	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:738:22:LL_DMA_SetMemoryIncMode	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:784:22:LL_DMA_SetPeriphSize	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:831:22:LL_DMA_SetMemorySize	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:971:22:LL_DMA_SetDataLength	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:1459:22:LL_DMA_SetMemoryAddress	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:1482:22:LL_DMA_SetPeriphAddress	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h:2609:22:LL_DMA_EnableIT_TC	1
+../Dev/Devices/NTC/ntc.c:1493:6:ntc_adc_dma_init	2
+../Dev/Devices/NTC/ntc.c:1520:6:ntc_adc_trigger	1
+../Dev/Devices/NTC/ntc.c:1526:9:ntc_convert	2

@@ -1,0 +1,5 @@
+../Dev/App/wdg/wdg_task.c:26:6:wdg_task_ctor	1
+../Dev/App/wdg/wdg_task.c:35:6:wdg_task_ctor_singleton	1
+../Dev/App/wdg/wdg_task.c:48:13:wdg_task_init	1
+../Dev/App/wdg/wdg_task.c:55:6:wdg_task_start	1
+../Dev/App/wdg/wdg_task.c:59:16:wdg_update_state_handler	2

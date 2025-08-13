@@ -1,0 +1,6 @@
+../Dev/MiddleWare/container/circular_char_buffer.c:18:10:circular_char_buffer_init	24	static
+../Dev/MiddleWare/container/circular_char_buffer.c:36:10:circular_char_buffer_push	32	static,ignoring_inline_asm
+../Dev/MiddleWare/container/circular_char_buffer.c:62:10:circular_char_buffer_pop	32	static,ignoring_inline_asm
+../Dev/MiddleWare/container/circular_char_buffer.c:88:6:circular_char_buffer_is_empty	16	static
+../Dev/MiddleWare/container/circular_char_buffer.c:96:6:circular_char_buffer_is_full	16	static
+../Dev/MiddleWare/container/circular_char_buffer.c:102:10:circular_char_buffer_get_free_space	16	static

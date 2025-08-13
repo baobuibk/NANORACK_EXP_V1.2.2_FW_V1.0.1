@@ -1,0 +1,10 @@
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:13:6:RingBuffer_Create	1
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:28:7:RingBuffer_Put	3
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:52:7:RingBuffer_Get	3
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:78:12:RingBuffer_NumFreeSlots	3
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:98:6:RingBuffer_ProcessAll	3
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:115:12:RingBuffer_GetHead	1
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:120:12:RingBuffer_GetTail	1
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:125:16:RingBuffer_GetHeadData	3
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:137:16:RingBuffer_GetTailData	2
+../Dev/BSupport/UART/RingBuffer/ring_buffer.c:148:7:RingBuffer_IsDataAvailable	1

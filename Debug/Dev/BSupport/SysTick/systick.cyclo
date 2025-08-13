@@ -1,0 +1,5 @@
+../Drivers/CMSIS/Include/core_cm7.h:2024:22:__NVIC_SetPriority	2
+../Drivers/CMSIS/Include/core_cm7.h:2564:26:SysTick_Config	2
+../Dev/BSupport/SysTick/systick.c:11:6:systick_timer_start	1
+../Dev/BSupport/SysTick/systick.c:20:6:systick_timer_stop	1
+../Dev/BSupport/SysTick/systick.c:26:6:systick_timer_init	1

@@ -1,0 +1,5 @@
+../Dev/BSupport/BSP/bsp_ntc/bsp_ntc.c:46:6:bsp_ntc_adc_init	8	static
+../Dev/BSupport/BSP/bsp_ntc/bsp_ntc.c:52:6:bsp_ntc_trigger_adc	8	static
+../Dev/BSupport/BSP/bsp_ntc/bsp_ntc.c:57:9:bsp_ntc_get_temperature	24	static
+../Dev/BSupport/BSP/bsp_ntc/bsp_ntc.c:68:10:temperature_monitor_get_ntc_error	32	static
+../Dev/BSupport/BSP/bsp_ntc/bsp_ntc.c:79:6:bsp_ntc_dma_adc_irq	4	static

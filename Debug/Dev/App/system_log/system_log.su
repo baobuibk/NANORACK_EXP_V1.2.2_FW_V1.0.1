@@ -1,0 +1,10 @@
+../Dev/App/system_log/system_log.c:35:6:system_log_task_ctor	24	static
+../Dev/App/system_log/system_log.c:45:6:system_log_task_ctor_singleton	32	static
+../Dev/App/system_log/system_log.c:56:13:system_log_task_init	16	static
+../Dev/App/system_log/system_log.c:62:6:system_log_task_start	16	static
+../Dev/App/system_log/system_log.c:66:16:system_log_normal_state_handler	16	static
+../Dev/App/system_log/system_log.c:78:6:system_log_house_keeping	40	static
+../Dev/App/system_log/system_log.c:88:6:system_log_set_interval	16	static
+../Dev/App/system_log/system_log.c:93:6:system_log_enable	8	static
+../Dev/App/system_log/system_log.c:98:6:system_log_disable	8	static
+../Dev/App/system_log/system_log.c:103:6:system_log_task_set_ntc_log_mask	16	static

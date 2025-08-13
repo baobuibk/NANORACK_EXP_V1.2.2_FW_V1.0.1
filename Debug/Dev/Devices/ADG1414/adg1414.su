@@ -1,0 +1,14 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:371:22:LL_SPI_Enable	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:394:26:LL_SPI_IsEnabled	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:918:26:LL_SPI_IsActiveFlag_RXNE	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:929:26:LL_SPI_IsActiveFlag_TXE	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1348:25:LL_SPI_ReceiveData8	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1371:22:LL_SPI_TransmitData8	24	static
+../Dev/Devices/ADG1414/adg1414.c:12:13:ADG1414_Chain_Write	24	static
+../Dev/Devices/ADG1414/adg1414.c:32:6:ADG1414_Chain_Init	56	static,ignoring_inline_asm
+../Dev/Devices/ADG1414/adg1414.c:64:6:ADG1414_Chain_SwitchOn	24	static
+../Dev/Devices/ADG1414/adg1414.c:106:6:ADG1414_Chain_SwitchOff	24	static
+../Dev/Devices/ADG1414/adg1414.c:135:6:ADG1414_Chain_SwitchAllOn	24	static
+../Dev/Devices/ADG1414/adg1414.c:145:6:ADG1414_Chain_SwitchAllOff	24	static

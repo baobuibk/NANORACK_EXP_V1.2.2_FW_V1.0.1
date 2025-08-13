@@ -1,0 +1,2 @@
+../Dev/BSupport/BSP/bsp_bkram/bsp_bkram.c:11:6:EnableBackupRAM	2
+../Dev/BSupport/BSP/bsp_bkram/bsp_bkram.c:19:6:DisableBackupRAM	1

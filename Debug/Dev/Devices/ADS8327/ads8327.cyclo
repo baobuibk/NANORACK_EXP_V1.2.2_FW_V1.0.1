@@ -1,0 +1,14 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:371:22:LL_SPI_Enable	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:394:26:LL_SPI_IsEnabled	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:918:26:LL_SPI_IsActiveFlag_RXNE	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:929:26:LL_SPI_IsActiveFlag_TXE	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1359:26:LL_SPI_ReceiveData16	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1388:22:LL_SPI_TransmitData16	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:800:26:LL_GPIO_IsInputPinSet	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	1
+../Dev/Devices/ADS8327/ads8327.c:15:6:ADS8327_Wake_Up	3
+../Dev/Devices/ADS8327/ads8327.c:29:6:ADS8327_Write_CFR	3
+../Dev/Devices/ADS8327/ads8327.c:46:6:ADS8327_Default_CFR	5
+../Dev/Devices/ADS8327/ads8327.c:68:10:ADS8327_Read_Data_Polling	7
+../Dev/Devices/ADS8327/ads8327.c:110:6:ADS8327_Device_Init	2

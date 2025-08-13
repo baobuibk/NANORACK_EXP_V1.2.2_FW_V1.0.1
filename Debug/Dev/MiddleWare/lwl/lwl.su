@@ -1,0 +1,11 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+../Dev/MiddleWare/lwl/lwl.c:58:16:calculate_crc8	24	static
+../Dev/MiddleWare/lwl/lwl.c:170:6:lwl_init	16	static
+../Dev/MiddleWare/lwl/lwl.c:176:6:lwl_start	8	static
+../Dev/MiddleWare/lwl/lwl.c:226:6:LWL	64	dynamic
+../Dev/MiddleWare/lwl/lwl.c:306:13:lwl_buffer_full_notify	8	static
+../Dev/MiddleWare/lwl/lwl.c:311:13:lwl_clear_notification	8	static
+../Dev/MiddleWare/lwl/lwl.c:330:6:lwl_reinit_buffer	16	static
+../Dev/MiddleWare/lwl/lwl.c:336:12:lwl_get_full_buffer_addr	4	static
+../Dev/MiddleWare/lwl/lwl.c:341:10:lwl_log_send_to_spi	8	static

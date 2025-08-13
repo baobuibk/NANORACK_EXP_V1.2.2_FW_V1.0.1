@@ -1,0 +1,6 @@
+../Dev/BSupport/DateTime/date_time.c:7:23:isLeapYear	16	static
+../Dev/BSupport/DateTime/date_time.c:12:23:getMaxDays	16	static
+../Dev/BSupport/DateTime/date_time.c:22:6:date_time_init	4	static
+../Dev/BSupport/DateTime/date_time.c:32:6:date_time_set	16	static
+../Dev/BSupport/DateTime/date_time.c:42:6:date_time_update	16	static
+../Dev/BSupport/DateTime/date_time.c:77:6:date_time_get	24	static

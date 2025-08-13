@@ -1,0 +1,6 @@
+../Dev/MiddleWare/container/circular_char_buffer.c:18:10:circular_char_buffer_init	7
+../Dev/MiddleWare/container/circular_char_buffer.c:36:10:circular_char_buffer_push	4
+../Dev/MiddleWare/container/circular_char_buffer.c:62:10:circular_char_buffer_pop	6
+../Dev/MiddleWare/container/circular_char_buffer.c:88:6:circular_char_buffer_is_empty	2
+../Dev/MiddleWare/container/circular_char_buffer.c:96:6:circular_char_buffer_is_full	2
+../Dev/MiddleWare/container/circular_char_buffer.c:102:10:circular_char_buffer_get_free_space	3

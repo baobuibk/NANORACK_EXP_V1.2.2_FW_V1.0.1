@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Dev/App/system_reset/system_reset.c 
+
+OBJS += \
+./Dev/App/system_reset/system_reset.o 
+
+C_DEPS += \
+./Dev/App/system_reset/system_reset.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Dev/App/system_reset/%.o Dev/App/system_reset/%.su Dev/App/system_reset/%.cyclo: ../Dev/App/system_reset/%.c Dev/App/system_reset/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32F765xx -DUSE_FULL_LL_DRIVER -DUSE_HAL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Common" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/UART" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/SysTick" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/I2C" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/ADG1414" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/IR_LED" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/MB85RS2MT" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C/LSM6DSOX" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C/BME280" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C/BMP390" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C/H250" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C/H3LIS331DL" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Sensor_I2C/K33" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/sst0_c/ports/arm-cm" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/container" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/Utils" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/sst0_c/src" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/FSM" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/STDIO" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/Signals" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/shell/CLI_Command" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/app_main" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/shell" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/Board" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/CLI_Terminal" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/CLI_Terminal/CLI_Src" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/temperature_control" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_tec" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_ntc" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_heater" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/ADS8327" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/MCP4902" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_photodiode" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/IS66WVS4M8BLL" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/LT8722" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/Devices/NTC" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_laser" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/experiment" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_spi_ram" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/Utils/ports/stm32f7xx" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Drivers/CMSIS" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Drivers/STM32F7xx_HAL_Driver" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/adc_monitor" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/min_shell" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/MIN_Protocol" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/photodiode_cool" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/MiddleWare/lwl" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/system_log" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_spi_slave" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/system_reset" -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/DateTime" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_handshake" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/spi_transmit" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/App/wdg" -I"D:/STworkspace/NANORACK_EXP_V1.2.2_FW_V1.0.0/Dev/BSupport/BSP/bsp_watchdog" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-Dev-2f-App-2f-system_reset
+
+clean-Dev-2f-App-2f-system_reset:
+	-$(RM) ./Dev/App/system_reset/system_reset.cyclo ./Dev/App/system_reset/system_reset.d ./Dev/App/system_reset/system_reset.o ./Dev/App/system_reset/system_reset.su
+
+.PHONY: clean-Dev-2f-App-2f-system_reset
+

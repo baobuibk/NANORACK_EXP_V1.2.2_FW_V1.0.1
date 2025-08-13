@@ -1,0 +1,10 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:800:26:LL_GPIO_IsInputPinSet	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+../Dev/App/spi_transmit/spi_transmit.c:34:6:spi_transmit_task_ctor	24	static
+../Dev/App/spi_transmit/spi_transmit.c:43:6:spi_transmit_task_singleton_ctor	32	static
+../Dev/App/spi_transmit/spi_transmit.c:54:13:spi_transmit_task_init	16	static
+../Dev/App/spi_transmit/spi_transmit.c:59:13:spi_transmit_task_dispatch	16	static
+../Dev/App/spi_transmit/spi_transmit.c:64:6:spi_transmit_task_start	16	static
+../Dev/App/spi_transmit/spi_transmit.c:69:16:spi_transmit_handler	16	static
+../Dev/App/spi_transmit/spi_transmit.c:112:6:spi_transmit_task_data_ready	16	static

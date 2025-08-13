@@ -1,0 +1,4 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	1
+../Dev/BSupport/BSP/bsp_tec/bsp_tec.c:75:10:bsp_temperature_power_on	1
+../Dev/BSupport/BSP/bsp_tec/bsp_tec.c:80:10:bsp_temperature_power_off	1

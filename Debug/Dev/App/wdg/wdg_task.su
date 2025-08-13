@@ -1,0 +1,5 @@
+../Dev/App/wdg/wdg_task.c:26:6:wdg_task_ctor	24	static
+../Dev/App/wdg/wdg_task.c:35:6:wdg_task_ctor_singleton	32	static
+../Dev/App/wdg/wdg_task.c:48:13:wdg_task_init	16	static
+../Dev/App/wdg/wdg_task.c:55:6:wdg_task_start	16	static
+../Dev/App/wdg/wdg_task.c:59:16:wdg_update_state_handler	16	static

@@ -1,0 +1,14 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:585:26:LL_USART_IsEnabled	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:1044:22:LL_USART_DisableSCLKOutput	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:1073:22:LL_USART_SetStopBitsLength	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:1498:22:LL_USART_SetHWFlowCtrl	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h:1640:22:LL_USART_SetBaudRate	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h:1295:22:LL_APB1_GRP1_ForceReset	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h:1367:22:LL_APB1_GRP1_ReleaseReset	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h:1768:22:LL_APB2_GRP1_ForceReset	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h:1825:22:LL_APB2_GRP1_ReleaseReset	1
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c:127:13:LL_USART_DeInit	9
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c:220:13:LL_USART_Init	12
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c:335:6:LL_USART_StructInit	1
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c:361:13:LL_USART_ClockInit	3
+../Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usart.c:419:6:LL_USART_ClockStructInit	1

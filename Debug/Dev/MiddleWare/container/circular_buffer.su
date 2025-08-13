@@ -1,0 +1,5 @@
+../Dev/MiddleWare/container/circular_buffer.c:9:10:circular_buffer_init	24	static
+../Dev/MiddleWare/container/circular_buffer.c:31:10:circular_buffer_push	32	static,ignoring_inline_asm
+../Dev/MiddleWare/container/circular_buffer.c:59:10:circular_buffer_pop	40	static,ignoring_inline_asm
+../Dev/MiddleWare/container/circular_buffer.c:90:6:circular_buffer_is_empty	16	static
+../Dev/MiddleWare/container/circular_buffer.c:98:6:circular_buffer_is_full	16	static

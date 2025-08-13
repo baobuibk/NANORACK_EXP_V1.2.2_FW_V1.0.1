@@ -1,0 +1,15 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:371:22:LL_SPI_Enable	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:394:26:LL_SPI_IsEnabled	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:918:26:LL_SPI_IsActiveFlag_RXNE	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:929:26:LL_SPI_IsActiveFlag_TXE	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1348:25:LL_SPI_ReceiveData8	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1371:22:LL_SPI_TransmitData8	24	static
+../Dev/Devices/MCP4902/mcp4902.c:16:9:v2dac	16	static
+../Dev/Devices/MCP4902/mcp4902.c:27:10:dac2v	16	static
+../Dev/Devices/MCP4902/mcp4902.c:36:13:MCP4902_Write	24	static,ignoring_inline_asm
+../Dev/Devices/MCP4902/mcp4902.c:75:6:MCP4902_Shutdown	24	static,ignoring_inline_asm
+../Dev/Devices/MCP4902/mcp4902.c:106:6:MCP4902_Set_DAC	16	static
+../Dev/Devices/MCP4902/mcp4902.c:118:6:MCP4902_Set_Voltage	24	static
+../Dev/Devices/MCP4902/mcp4902.c:133:6:MCP4902_Device_Init	56	static,ignoring_inline_asm

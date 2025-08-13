@@ -1,0 +1,2 @@
+# Ignore STM32CubeMX project file
+*.ioc

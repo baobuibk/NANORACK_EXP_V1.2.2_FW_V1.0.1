@@ -1,0 +1,6 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_tim.h:2444:22:LL_TIM_OC_SetCompareCH1	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_tim.h:2461:22:LL_TIM_OC_SetCompareCH2	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_tim.h:2478:22:LL_TIM_OC_SetCompareCH3	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_tim.h:2495:22:LL_TIM_OC_SetCompareCH4	1
+../Dev/BSupport/BSP/bsp_heater/bsp_heater.c:12:6:bsp_heater_set_duty_channel	6
+../Dev/BSupport/BSP/bsp_heater/bsp_heater.c:35:6:bsp_heater_turn_off_channel	5

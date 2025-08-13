@@ -1,0 +1,17 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:918:26:LL_SPI_IsActiveFlag_RXNE	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:929:26:LL_SPI_IsActiveFlag_TXE	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1348:25:LL_SPI_ReceiveData8	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_spi.h:1371:22:LL_SPI_TransmitData8	24	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:11:20:MB85RS2MT_Select	16	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:17:20:MB85RS2MT_Deselect	16	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:23:13:MB85RS2MT_SPI_Transmit	32	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:35:13:MB85RS2MT_SPI_Receive	40	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:47:6:MB85RS2MT_Init	16	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:53:6:MB85RS2MT_Read	32	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:68:6:MB85RS2MT_Write	32	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:90:9:MB85RS2MT_ReadStatus	24	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:104:6:MB85RS2MT_WriteStatus	24	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:121:6:MB85RS2MT_Sleep	24	static
+../Dev/Devices/MB85RS2MT/mb85rs2mt.c:131:6:MB85RS2MT_Wakeup	24	static

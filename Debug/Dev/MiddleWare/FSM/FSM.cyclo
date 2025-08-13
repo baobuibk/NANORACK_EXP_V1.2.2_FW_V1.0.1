@@ -1,0 +1,3 @@
+../Dev/MiddleWare/FSM/FSM.c:10:6:fsm_ctor	1
+../Dev/MiddleWare/FSM/FSM.c:14:6:fsm_init	1
+../Dev/MiddleWare/FSM/FSM.c:19:6:fsm_dispatch	2

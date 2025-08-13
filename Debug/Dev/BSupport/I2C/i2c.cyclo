@@ -1,0 +1,12 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:1525:26:LL_I2C_IsActiveFlag_TXIS	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:1538:26:LL_I2C_IsActiveFlag_RXNE	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:1577:26:LL_I2C_IsActiveFlag_STOP	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:1590:26:LL_I2C_IsActiveFlag_TC	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:1701:26:LL_I2C_IsActiveFlag_BUSY	2
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:1734:22:LL_I2C_ClearFlag_STOP	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:2093:22:LL_I2C_HandleTransfer	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:2185:25:LL_I2C_ReceiveData8	1
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_i2c.h:2197:22:LL_I2C_TransmitData8	1
+../Dev/BSupport/I2C/i2c.c:11:14:I2C_Write	13
+../Dev/BSupport/I2C/i2c.c:45:14:I2C_Read	16
+../Dev/BSupport/I2C/i2c.c:87:14:I2C_ReadMulti	17

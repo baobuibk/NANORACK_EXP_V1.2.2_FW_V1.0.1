@@ -1,0 +1,2 @@
+../Dev/BSupport/BSP/bsp_watchdog/bsp_watchdog.c:12:6:bsp_tpl5010_feed	1
+../Dev/BSupport/BSP/bsp_watchdog/bsp_watchdog.c:17:6:bsp_enable_backup_sram	1

@@ -1,0 +1,3 @@
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_tim.h:2444:22:LL_TIM_OC_SetCompareCH1	16	static
+../Dev/Devices/IR_LED/ir_led.c:12:6:ir_led_set_duty	16	static
+../Dev/Devices/IR_LED/ir_led.c:18:9:ir_led_get_duty	4	static
