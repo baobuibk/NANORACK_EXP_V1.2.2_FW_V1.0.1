@@ -25,7 +25,7 @@
 void app_init(void)
 {
 	experiment_task_singleton_ctor();
-	shell_task_ctor_singleton();
+//	shell_task_ctor_singleton();
 	temperature_control_task_singleton_ctor();
 	tec_ovr_control_task_singleton_ctor();
 	min_shell_task_ctor_singleton();
@@ -38,7 +38,7 @@ void app_init(void)
 void app_start(void)
 {
 	experiment_task_start(1);
-	shell_task_start(4);
+//	shell_task_start(4);
 	temperature_control_task_start(2);
 	tec_ovr_control_task_start(5);
 	system_log_task_start(6);
