@@ -1871,7 +1871,7 @@ Discarded input sections
                 0x00000000        0x1 ./Dev/App/shell/CLI_Command/cli_command.o
  .text.CMD_test
                 0x00000000       0x18 ./Dev/App/shell/CLI_Command/cli_command.o
- .rodata        0x00000000     0x15fc ./Dev/App/shell/CLI_Command/cli_command.o
+ .rodata        0x00000000     0x1630 ./Dev/App/shell/CLI_Command/cli_command.o
  .text.cmd_clear_fram
                 0x00000000       0x80 ./Dev/App/shell/CLI_Command/cli_command.o
  .text.cmd_read_fram

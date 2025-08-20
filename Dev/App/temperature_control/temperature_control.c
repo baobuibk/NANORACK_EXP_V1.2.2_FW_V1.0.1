@@ -880,7 +880,7 @@ uint32_t temperature_profile_tec_ovr_register(temperature_control_task_t *const 
 }
 uint32_t temperature_profile_tec_ovr_voltage_set(temperature_control_task_t *const me, uint16_t	volt_mv)
 {
-	if ((volt_mv < 500) || (volt_mv > 3000)) return ERROR_NOT_SUPPORTED;
+	if ((volt_mv < 500) || (volt_mv > 4500)) return ERROR_NOT_SUPPORTED;
 
 	me->temperature_tec_ovr_profile.tec_ovr_voltage = volt_mv;
 	temp_ctrl_update_profile();
@@ -954,7 +954,7 @@ uint32_t temperature_control_tec_enable_output(temperature_control_task_t * cons
 }
 uint32_t temperature_control_profile_tec_voltage_set(temperature_control_task_t *const me, uint16_t	volt_mv)
 {
-	if ((volt_mv < 500) || (volt_mv > 3000)) return ERROR_NOT_SUPPORTED;
+	if ((volt_mv < 500) || (volt_mv > 4500)) return ERROR_NOT_SUPPORTED;
 
 	me->temperature_control_profile.tec_voltage = volt_mv;
 	temp_ctrl_update_profile();

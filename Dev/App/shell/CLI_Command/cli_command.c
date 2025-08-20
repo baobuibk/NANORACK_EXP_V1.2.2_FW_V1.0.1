@@ -415,9 +415,9 @@ static void CMD_TEC_Set_Profile_Volt(EmbeddedCli *cli, char *args, void *context
 	volt = atoi(arg1);
 
 
-		if ((volt < 500) || (volt > 3000))
+		if ((volt < 500) || (volt > 4500))
 		{
-			cli_printf(cli, "tec[%d] voltage is out of range (500mV-3000mV)\r\n");
+			cli_printf(cli, "tec[%d] voltage is out of range (500mV-4500mV)\r\n");
 			return;
 		}
 
