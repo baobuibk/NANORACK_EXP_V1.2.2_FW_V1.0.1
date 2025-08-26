@@ -85,7 +85,10 @@ static state_t temperature_control_state_ntc_error_handler(temperature_control_t
 static void temperature_control_task_init(temperature_control_task_t * const me,temperature_control_evt_t const * const e)
 {
 	temperature_control_power_control(me, 1);
-	temperature_control_auto_tec_init_all(me);		// Init all TEC
+//	temperature_control_auto_tec_init_all(me);		// Init all TEC
+	temperature_control_tec_init(me, 0);
+	temperature_control_tec_init(me, 0);
+
 
 	if (temp_ctrl_validate_profile())
 	{
